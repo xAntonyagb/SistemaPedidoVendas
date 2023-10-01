@@ -141,6 +141,8 @@ public class CadastrarPedidoActivity extends AppCompatActivity {
 
         tvItens.setText(item + tvItens.getText().toString());
         atualizarTotais();
+        tvCodProduto.getText().clear();
+        edQuantidade.getText().clear();
     }
 
     private void atualizarTotais() {
